@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,8 +15,10 @@
 </head>
 
 <body class="fullscreen">
-<label>Please input your duration:</label>
+<div></div><br/><br/>
+<label for="numberInput">Please input your duration:</label>
 <input name="numberinput" type="text" id="numberInput"/><br/><br/>
+<label for="unitInput">Select </label>
 <select name="unitinput" id="unitInput">
     <option value="seconds">Seconds</option>
     <option value="minutes">Minutes</option>
@@ -26,8 +28,10 @@
     <option value="months">Months</option>
     <option value="years">Years</option>
 </select><br/><br/>
+<div>Result:</div><br/><br/>
+<div id="result"></div>
 
-<button type="button">Calculate</button>
+<button type="button" onclick="submit()">Calculate</button>
 <script src="js/main.js"></script>
 
 </body>
