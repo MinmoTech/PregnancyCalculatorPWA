@@ -1,0 +1,58 @@
+body {
+    margin: 5% auto 0 auto;
+}
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 2.5%;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+    font-family: 'Lora', sans-serif;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+#result {
+    font-size: 30px;
+}
+
+input, label, select, div, button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 22px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+footer {
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0;
+    height: 36px;
+    font-size: 17px;
+}
+.footer-element{
+    display: inline-block;
+}

@@ -17,7 +17,8 @@ function calculate(unitInput, numberInput) {
     let portion = unitConversion(unitInput, numberInput);
     let percentage = numberToPercentage(portion);
     let roundedPercentage = percentage.toFixed(2);
-    document.getElementById('result').innerHTML = roundedPercentage + '%';
+    let resultString = numberInput.toString() + ' ' + unitInput.toString() + ' is ' + roundedPercentage + '% of a pregnancy!';
+    document.getElementById('result').innerHTML = resultString;
 }
 
 function unitConversion(unitInput, numberInput) {
